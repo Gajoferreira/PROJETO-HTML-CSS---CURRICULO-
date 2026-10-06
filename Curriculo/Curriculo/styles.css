@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+
+
+body {
+
+    background-color:#F2F2F2 ;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: 1000px;
+    margin: 0 auto;  
+    color: rgb(15, 14, 14);
+
+}
+
+/*  cabeçário*/
+
+
+header {
+
+    background-color: #A6A6A6;
+    height: 330px ;
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+div.h1_imagem > img {
+
+    width: 200px;
+    height: 250px;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+
+    box-shadow: 5px 5px #0000000f;
+ 
+}
+
+div.h1_imagem > h1{
+    
+    font-size: 12px;
+    background-color: #404040;
+
+    box-shadow: 5px 5px #0000000f;
+}
+
+div.h1_imagem {
+
+    display: inline-block;
+    margin: 3% 3%
+}
+
+/*  contatos - informações pessoais*/
+
+div.inf_head {
+    
+    background-color: #404040;
+   
+    margin: 20px;
+    height: 130px;
+
+    box-shadow: 5px 5px #0000000f;
+    
+}    
+
+a.link{
+
+  text-decoration: none;
+  color: rgb(63, 128, 106)
+
+}
+
+a.link:hover{
+
+    color: black;
+    text-decoration: underline;
+
+}
+
+div.alinhamento {
+
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-right: 0% ;
+    width:70% ;
+}
+
+div.inf_head > h2 {
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+/*  contatos - informações pessoais */
+ 
+/*  cabeçário*/
+
+/*  pricipal */
+main {
+    
+    background-color: #A6A6A6;
+   
+    padding: 5px 1px;
+    margin: 20px 0px;
+}
+
+article.artigo {
+
+    background-color: #404040 ;
+
+    margin-left: 20px;
+    margin-right: 20px ;
+    margin-bottom: 20px;  
+}
+   
+
+div.competencias {
+   
+    background-color: #404040 ;
+
+    margin: 0% 20px;
+}
+
+div.qualidades {
+
+    background-color: #404040 ;
+
+    margin: 0% 20px;
+}
+
+div.certificado {
+
+    background-color: #404040 ;
+
+    margin-left: 20px;
+    margin-right: 20px ;
+    margin-bottom: 20px;  
+}
+
+article.artigo > p {
+
+ text-align: justify;
+ padding: 8px 10px;
+ text-indent: 20px;
+
+}
+
+article.artigo > h2 {
+
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.competencias > h2 {
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+div.qualidades > h2 {
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+div.certificado > h2{
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+div.certificado > ul {
+
+    padding-bottom: 8px;
+}
+
+div.qualidades  > ul {
+
+    padding-bottom: 8px;
+}
+
+div.certificado > p {
+
+    padding-left: 8px;
+}
+
+
+div.competencias > ul {
+
+    padding-bottom: 8px;
+}
+
+
+/*  pricipal */
+
+/*  rodape */
+footer{
+
+    background-color: #0D0D0D;
+
+}
+
+footer > p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+   
+    margin: 1px 315px;
+   
+    
+}
+
+div.area_click {
+
+
+    display: inline-block ;
+    width: 10px;
+    height: 10px;
+    
+}
+/*  rodape */
+ 
